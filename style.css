@@ -227,7 +227,7 @@ legend {
     .container {
         display: flex;
         flex-direction: column;
-        height: 95vh;
+        height: 93vh;
         justify-content: space-between;
         align-items: center;
         background: url(fon.png);
@@ -242,6 +242,7 @@ legend {
         justify-content: center;
         align-items: center;
         gap: 30px;
+        margin-top: 50px;
     }
     .hid-hid {
         display: none;
