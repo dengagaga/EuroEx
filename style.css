@@ -140,6 +140,16 @@ legend {
     font-size: 26px;
 
 }
+.container.element-animation {
+	opacity: 0;
+	/* transform: translateY(-30%); */
+}
+.container.element-animation.element-show {
+	opacity: 1;
+	transition: all 2s;
+	transform: translateY(0%);
+	
+}
 @media(max-width:1366px) {
     .logo {
         padding-top: 70px;
